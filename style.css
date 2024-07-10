@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* Header  Margin padding */
+
+header{
+    width: 100%;
+    padding: 7px 0;
+}
+
+/* body font */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size:16px;
+}
+
+/* List Global Margin Padding */
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* anchor tag text decoration */
+a{
+    text-decoration: none;
+
+}
+
+ul a{
+    color: #0e72cc;
+}
+
+ul a:hover{
+    color: blue;
+}
+
+
+/* Container idle Margin */ 
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+/* logo and button flex basis */
+.logo, .buttons{
+    flex-basis: 20%;
+}
+
+/* nav-list flex basis */
+.nav-list{
+    flex-basis: 60%;
+}
+
+/* nav-list style */
+.nav-list ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 15px;
+    color: #0e72cc;
+
+}
+
+/* buttons style */
+.buttons button{
+    flex-basis:20;
+    padding: 10px 10px;
+    font-size: 16px;
+    color:white;
+    background: #0e72cc;
+    border: 1px solid #0e72cc;
+   
+}
+
+
+button a{
+    color: white;
+}
+
+/* Buttons Hover Color */
+.buttons button:hover{
+    background:rgb(48, 78, 179);
+    
+
+}
+
